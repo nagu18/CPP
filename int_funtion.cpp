@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
-int add(int a, int b, int c){
-    return (a+b+c);
+int add(int x, int y, int z){          
+    return x+y+z;                      //function should be outside of the int main(){}
 }
 int main(){
-    int a , b, c;
-    cin >> a;
-    cin >> b;
-    cin >> c;
-    cout << add(a , b , c);
+     int x,y,z;
+     cin >> x;
+     cin >> y;
+     cin >> z;
+     cout << add(x,y,z);
+    //int re = add(x,y,z);  //-- function 
+    //cout << re;
 }
